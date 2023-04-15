@@ -1,0 +1,17 @@
+{% load static %}
+<nav>
+    <div class="logo">
+        <a class="navbar-brand" href="{% url 'index' %}">
+            <img src="{% static 'img/logo.svg' %}" alt="logo" width="30" height="24">
+        </a>
+    </div>
+    <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="{% url 'index' %}" class="link link--dark"><i class="fa"></i>
+            🌐 басты бет</a></li>
+        <li class="menu__item"><a href="{% url 'doc' %}" class="link link--dark"><i class="fa"></i>
+            🧐 курс парақшасы</a></li>
+        <li class="menu__item"><a href="{% url 'about' %}" class="link link--dark"><i class="fa"></i>📑 біз туралы</a>
+        </li>
+    </ul>
+</nav>
