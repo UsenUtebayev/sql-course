@@ -11,7 +11,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['sqlcourse.pythonanywhere.com']
 
 
-
+SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
