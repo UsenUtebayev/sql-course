@@ -6,9 +6,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-!3j4633m&$ey2r%n0za(azxb6m0k(92m5bl5l8ty5^%*ta26jo'
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['sqlcourse.pythonanywhere.com']
+ALLOWED_HOSTS = ['sqlcourse.pythonanywhere.com',
+                 '127.0.0.1']
 
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
