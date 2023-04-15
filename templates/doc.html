@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/scribbler-global.css' %}">
     <link rel="stylesheet" href="{% static 'css/scribbler-doc.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="doc__bg"></div>
@@ -17,7 +20,8 @@
     <h1 class="logo">SQL курс <span class="logo__thin"></span></h1>
     <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="{% url 'index' %}" class="link link--dark"><i class="fa fa-home"></i> Басты бет</a></li>
+        <li class="menu__item"><a href="{% url 'index' %}" class="link link--dark"><i class="fa fa-home"></i> Басты бет</a>
+        </li>
     </ul>
 </nav>
 {% block content %}
