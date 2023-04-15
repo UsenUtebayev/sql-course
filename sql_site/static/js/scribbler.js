@@ -96,7 +96,7 @@ window.addEventListener('scroll', function () {
 
   if( docNav) {
     if (window.pageYOffset > 63) {
-      docNav.classList.add('fixed');
+      let x = "x"
     } else {
       docNav.classList.remove('fixed');
     }
